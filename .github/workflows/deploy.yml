@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build and Deploy to GitHub Pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main  # mainブランチにプッシュされたとき
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,29 +16,35 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-        node-version: 20
+        node-version: '20'  # Node.js 20を指定
 
     - name: Install dependencies
       run: npm install
 
     - name: Build site
-      run: npm run build  # `dist` にビルドされたファイルが生成される前提
+      run: npm run build  # ビルドコマンド。`dist` フォルダが生成される前提
 
     - name: Configure Git
       run: |
         git config user.name "GitHub Actions"
         git config user.email "github-actions@github.com"
 
-    - name: Commit and push to gh-pages branch
+    - name: Commit and push build to gh-pages branch
       run: |
-        # 1. Create a new branch or check out the existing one
+        # Create or switch to the gh-pages branch
         git checkout -B gh-pages
 
-        # 2. Copy build output to the root of the branch
+        # Clear the branch and copy build output
         rm -rf *
         cp -r dist/* .
 
-        # 3. Add, commit, and push changes
+        # Add, commit, and push changes
         git add .
-        git commit -m "Deploy to GitHub Pages"
+        git commit -m "Deploy build result to gh-pages"
         git push origin gh-pages --force
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: .  # `gh-pages` ブランチにプッシュした内容をデプロイ
