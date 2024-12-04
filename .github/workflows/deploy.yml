@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Build site
-      run: npm run build  # ビルドコマンド。`dist` フォルダが生成される前提
+      run: npm run build  # `copy-files.js` スクリプトを実行
 
     - name: Configure Git
       run: |
@@ -31,14 +31,9 @@ jobs:
 
     - name: Commit and push build to gh-pages branch
       run: |
-        # Create or switch to the gh-pages branch
         git checkout -B gh-pages
-
-        # Clear the branch and copy build output
         rm -rf *
         cp -r dist/* .
-
-        # Add, commit, and push changes
         git add .
         git commit -m "Deploy build result to gh-pages"
         git push origin gh-pages --force

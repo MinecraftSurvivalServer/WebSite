@@ -3,9 +3,10 @@
     "bootstrap": "^5.3.3"
   },
   "scripts": {
-  "build": "npx ncp src dist"
+    "build": "node copy-files.js"
   },
   "devDependencies": {
+    "fs-extra": "^11.2.0",
     "ncp": "^2.0.0"
   }
 }
