@@ -1,0 +1,39 @@
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer {
+    text-align: center;
+    margin-top: 1em;
+}
+h1, h2 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+  }
+nav {
+  font-size: 1.3em;
+}
+  
