@@ -1,0 +1,6 @@
+./src/pages
+./src/styles
+./index.html
+./package.json
+./README.md
+./typos-paths.txt
