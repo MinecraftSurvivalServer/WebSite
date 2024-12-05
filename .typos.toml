@@ -7,4 +7,3 @@ extend-exclude = [
 [default.extend-words] # 単語除外
 # accessable = "accessable"
 # activ = "activ"
-
