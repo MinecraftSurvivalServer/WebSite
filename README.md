@@ -1,0 +1,3 @@
+[![CodeQL](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/github-code-scanning/codeql)
+[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/jekyll-gh-pages.yml)
+[![Spell Check with Typos](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/typos.yml/badge.svg)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/typos.yml)
