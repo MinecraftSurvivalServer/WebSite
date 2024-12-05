@@ -19,5 +19,5 @@ jobs:
       - name: Check spelling of files
         uses: crate-ci/typos@master
         with:
+          # VScode だと黄色エラー 実行に問題は無い
           files: ${{ env.paths }}
-          # TODO エラー直す
