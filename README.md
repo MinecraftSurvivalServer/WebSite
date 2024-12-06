@@ -11,20 +11,20 @@
 このサイトはMinecraftSurvivalServerのWebサイトです。
 
 ## このサイトの貢献方法
-> [! NOTE]
+> [!NOTE]
 > このサイトはGitHub Actionsを使用してビルドされています。
 > ただの html+css+js のサイトです。
 > node.js20.x, npm が必要です。
 >> 22へ移行するかも。
 
-> [! IMPORTANT]
+> [!IMPORTANT]
 > mainブランチ, DEVブランチは直接編集できません。保護されています。
 > DEVブランチから新たにブランチを作成して、そこで編集してください。
 
 編集後、Pull Request (以下、PR) を送ってください。自動で担当者が割り振られます。
 必要なレビューとステータスチェックがすべて完了したら、PRは自動的にマージされます。
 
-> [! TIP]
+> [!TIP]
 > GitHub Actions によって、push, PR時にTyposによるエラー検知が行われます。
 > エラーが出た場合は、修正してください。
 > チェック対象のファイルは、typos-paths.txt に記載されています。適宜変更してください。
