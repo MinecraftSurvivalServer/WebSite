@@ -1,5 +1,7 @@
 name: Spell Check with Typos
-on: [pull_request, push]
+# on: [pull_request, push]
+# PRのみ実行
+on: [pull_request]
 
 jobs:
   run:

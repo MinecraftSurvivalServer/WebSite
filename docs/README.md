@@ -26,7 +26,7 @@
 ![alt text](images/image.png)
 
 > [!TIP]
-> GitHub Actions によって、push, PR時にTyposによるエラー検知が行われます。
+> GitHub Actions によって、~~push~~, PR時にTyposによるエラー検知が行われます。
 > エラーが出た場合は、修正してください。
 > チェック対象のファイルは、typos-paths.txt に記載されています。適宜変更してください。
 > 
