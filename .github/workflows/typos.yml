@@ -4,23 +4,76 @@ name: Spell Check with Typos
 on: [pull_request]
 
 jobs:
-  run:
-    name: Spell Check with Typos
-    # セルフホストで実行
-    runs-on: self-hosted
+  check-runner:
+    runs-on: ubuntu-latest  # 最初は Ubuntu ランナーで実行
+    steps:
+      - name: Check if self-hosted runner is available
+        id: check_self_hosted
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Checking if self-hosted runner is available..."
+          if [ "$(curl -s -H "Authorization: token $GITHUB_TOKEN" --head https://api.github.com/repos/MinecraftSurvivalServer/WebSite/actions/runners | grep 'self-hosted')" ]; then
+            echo "Self-hosted runner is available."
+            echo "self_hosted=true" >> $GITHUB_ENV  # 環境変数を設定
+          else
+            echo "Self-hosted runner is not available."
+            echo "self_hosted=false" >> $GITHUB_ENV  # 環境変数を設定
+          fi
+
+  process:
+    needs: check-runner
+    runs-on: ${{ env.self_hosted == 'true' && 'self-hosted' || 'ubuntu-latest' }}  # 条件によってランナーを選択
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Read paths from config file
-        id: read_paths
-        run: |
-          # Read the paths from typos-paths.txt and convert them into a space-separated string
-          paths=$(cat typos-paths.txt | tr '\n' ' ')
-          echo "paths=$paths" >> $GITHUB_ENV
+        
+      -  name: Spell Check with Typo
+        steps:
+          - name: Checkout Repository
+            uses: actions/checkout@v4
+          
+          - name: Set PowerShell execution policy
+            shell: pwsh
+            run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
 
-      - name: Check spelling of files
-        uses: crate-ci/typos@master
-        with:
-          # VScode だと黄色エラー 実行に問題は無い
-          files: ${{ env.paths }}
+          - name: Read paths from config file
+            id: read_paths
+            run: |
+              # Read the paths from typos-paths.txt and convert them into a space-separated string
+              paths=$(cat typos-paths.txt | tr '\n' ' ')
+              echo "paths=$paths" >> $GITHUB_ENV
+
+          - name: Check spelling of files
+            uses: crate-ci/typos@master
+            with:
+              # VScode だと黄色エラー 実行に問題は無い
+              files: ${{ env.paths }}
+
+
+# jobs:
+#   run:
+#     name: Spell Check with Typos
+#     # セルフホストで実行
+#     runs-on: self-hosted
+#     steps:
+#       - name: Checkout Repository
+#         uses: actions/checkout@v4
+      
+#       - name: Set PowerShell execution policy
+#         shell: pwsh
+#         run: Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted -Force
+
+#       - name: Read paths from config file
+#         id: read_paths
+#         run: |
+#           # Read the paths from typos-paths.txt and convert them into a space-separated string
+#           paths=$(cat typos-paths.txt | tr '\n' ' ')
+#           echo "paths=$paths" >> $GITHUB_ENV
+
+#       - name: Check spelling of files
+#         uses: crate-ci/typos@master
+#         with:
+#           # VScode だと黄色エラー 実行に問題は無い
+#           files: ${{ env.paths }}
