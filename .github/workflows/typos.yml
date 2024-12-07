@@ -1,13 +1,13 @@
 name: Spell Check with Typos
 # on: [pull_request, push]
 # PRのみ実行
-runs-on: self-hosted
 on: [pull_request]
 
 jobs:
   run:
     name: Spell Check with Typos
-    runs-on: ubuntu-latest
+    # セルフホストで実行
+    runs-on: self-hosted
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
