@@ -1,6 +1,7 @@
 name: Spell Check with Typos
 # on: [pull_request, push]
 # PRのみ実行
+runs-on: self-hosted
 on: [pull_request]
 
 jobs:
