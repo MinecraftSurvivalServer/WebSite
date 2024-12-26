@@ -9,19 +9,20 @@ title: Minecraft Server Guide
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=100%">
   <title>Contact & Credits </title>
-  <link rel="stylesheet" href="../styles/global.css">
-  <link rel="stylesheet" href="../styles/contact.css">
+  <!-- <link rel="stylesheet" href="../styles/global.css"> -->
+  <!-- <link rel="stylesheet" href="../styles/contact.css"> -->
   <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="/src/output.css">
 </head>
 <body>
-  <header>
-    開発中の画面です。仕様が変更される場合があります。
-    <h1>Contact & Credits</h1>
-    <nav>
-      <a href="../../index.html">Home</a>
-    </nav>
-  </header>
-
+  <div id="header"></div>
+    <script class="margin-top-10">
+        fetch('/src/views/header')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+    </script>
   <main>
     <p class="h2">Credits <span class="mini-font">(順不同,敬称略)</span></p>
     <div class="li">
@@ -87,11 +88,13 @@ title: Minecraft Server Guide
       <p><a href="{{https://discord.com/exanple}}">Discord</a>にお問い合わせください。(チケット発行)</p>
     </div>
   </main>
-
-  <footer>
-    <p>&copy; 2024- Minecraft Survival Server</p>
-    <p>&copy; akikukeo</p>
-    開発中の画面です。仕様が変更される場合があります。
-  </footer>
+  <div id="footer"></div>
+  <script>
+      fetch('/src/views/footer')
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById('footer').innerHTML = data;
+          });
+  </script>
 </body>
 </html>

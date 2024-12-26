@@ -6,7 +6,8 @@
   },
   "scripts": {
     "build": "node copy-files.js",
-    "pug": "pug src/views/**/*.pug -o dist"
+    "pug": "pug src/views/**/*.pug -o dist",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
   },
   "devDependencies": {
     "fs-extra": "^11.2.0",
