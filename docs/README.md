@@ -13,9 +13,8 @@
 ## このサイトの貢献方法
 > [!NOTE]
 > このサイトはGitHub Actionsを使用してビルドされています。
-> ただの html+css+js のサイトです。
-> node.js20.x, npm が必要です。
->> 22へ移行するかも。
+> Tailwind CSSを使用しています。
+> node.js22.12.0, npm が必要です。
 
 > [!IMPORTANT]
 > mainブランチ, DEVブランチは直接編集できません。保護されています。

@@ -1,4 +1,6 @@
 name: Spell Check with Typos
+# on: [pull_request, push]
+# PRのみ実行
 on: [pull_request]
 
 jobs:
@@ -15,9 +17,16 @@ jobs:
           # Read the paths from typos-paths.txt and convert them into a space-separated string
           paths=$(cat typos-paths.txt | tr '\n' ' ')
           echo "paths=$paths" >> $GITHUB_ENV
+          echo "::set-output name=paths::$paths"
 
       - name: Check spelling of files
         uses: crate-ci/typos@master
         with:
-          # VScode だと黄色エラー 実行に問題は無い
-          files: ${{ env.paths }}
+          files: ${{ steps.read_paths.outputs.paths }}
+      
+      #  前のバージョン
+      # - name: Check spelling of files
+      #   uses: crate-ci/typos@master
+      #   with:
+      #     # VScode だと黄色エラー 実行に問題は無いのでエラーを無視する
+      #     files: ${{ env.paths }}
