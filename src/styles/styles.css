@@ -2,10 +2,7 @@
     font-size: 1.15em;
     margin-bottom: 0.5em;
 }
-.li {
-    font-size: 1.2em; /* テキストサイズを標準の 1.2 倍に設定 */
-    margin-bottom: 1.5em;
-}
+
 .developer-names {
     display: block; /* ブロック要素として表示 */
     margin-top: 5px; /* 上にスペースを追加 */
