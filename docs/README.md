@@ -8,7 +8,7 @@
 [![Spell Check with Typos](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/typos.yml/badge.svg?branch=DEV)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/typos.yml)
 
 ## このサイトについて
-このサイトはMinecraftSurvivalServerのWebサイトです。
+このサイトは開発中のMinecraftSurvivalServerのサイトです。
 
 ## このサイトの貢献方法
 > [!NOTE]
