@@ -15,7 +15,7 @@
 -->
 
 ## このサイトについて
-このサイトはMinecraftSurvivalServerのWebサイトです。
+このサイトは開発中のMinecraftSurvivalServerのサイトです。
 
 ## このサイトの貢献方法
 > [!NOTE]
