@@ -2,13 +2,20 @@
 [![CodeQL](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/github-code-scanning/codeql)
 [![Spell Check with Typos](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/typos.yml/badge.svg)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/typos.yml)
 [![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/jekyll-gh-pages.yml)
+[![Dependabot Updates](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/dependabot/dependabot-updates)
 
 ### DEV Branch Status
 [![CodeQL](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/github-code-scanning/codeql/badge.svg?branch=DEV)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/github-code-scanning/codeql)
 [![Spell Check with Typos](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/typos.yml/badge.svg?branch=DEV)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/typos.yml)
 
+<!--
+### Pages Status
+[![CodeQL](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/github-code-scanning/codeql/badge.svg?branch=gh-pages)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/github-code-scanning/codeql)
+[![Deploy Jekyll with GitHub Pages dependencies preinstalled](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/jekyll-gh-pages.yml/badge.svg?branch=gh-pages)](https://github.com/MinecraftSurvivalServer/WebSite/actions/workflows/jekyll-gh-pages.yml)
+-->
+
 ## このサイトについて
-このサイトはMinecraftSurvivalServerのWebサイトです。
+このサイトは開発中のMinecraftSurvivalServerのサイトです。
 
 ## このサイトの貢献方法
 > [!NOTE]

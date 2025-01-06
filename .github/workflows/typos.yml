@@ -17,7 +17,7 @@ jobs:
           # Read the paths from typos-paths.txt and convert them into a space-separated string
           paths=$(cat typos-paths.txt | tr '\n' ' ')
           echo "paths=$paths" >> $GITHUB_ENV
-          echo "::set-output name=paths::$paths"
+          # echo "::set-output name=paths::$paths"
 
       - name: Check spelling of files
         uses: crate-ci/typos@master
