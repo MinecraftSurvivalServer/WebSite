@@ -1,37 +1,31 @@
-<!-- ---
-layout: default
-title: Minecraft Server Guide
---- -->
-
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home </title>
-  <link rel="stylesheet" href="/src/styles/global.css">
-  <link rel="stylesheet" href="/src/styles/styles.css">
-  <link rel="stylesheet" href="/src/styles/contact.css">
-  <link rel="stylesheet" href="/src/output.css">
-</head>
-<body>
-  <div id="header"></div>
-  <script class="margin-top-10">
-      fetch('/src/views/header')
-          .then(response => response.text())
-          .then(data => {
-              document.getElementById('header').innerHTML = data;
-          });
-  </script>
-  <main>
-    <h1 class="h2">aaa</h1>
-  <div id="footer"></div>
-  <script>
-      fetch('/src/views/footer')
-          .then(response => response.text())
-          .then(data => {
-              document.getElementById('footer').innerHTML = data;
-          });
-  </script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/src/styles/global.css" />
+    <link rel="stylesheet" href="/src/styles/styles.css" />
+    <link rel="stylesheet" href="/src/styles/contact.css" />
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <script class="margin-top-10">
+      fetch("/src/views/N-header")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+    <main>example</main>
+    <div id="footer"></div>
+    <script>
+      fetch("/src/views/N-footer")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
 </html>

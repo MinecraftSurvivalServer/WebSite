@@ -1,0 +1,4183 @@
+/* Examples/Landing Page */
+
+/* オートレイアウト */
+/* オートレイアウト */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+/* display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px; */
+
+position: relative;
+width: 1200px;
+height: 2120px;
+
+background: #ffffff;
+
+/* Header */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 32px;
+gap: 0px 24px;
+
+width: 1200px;
+height: 99px;
+
+background: #ffffff;
+border-bottom: 1px solid #d9d9d9;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Block */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 24px;
+
+width: 40px;
+height: 35px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon Button
+
+Keywords: action
+*/
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+display: none;
+width: 44px;
+height: 44px;
+
+background: #f5f5f5;
+border: 1px solid #d9d9d9;
+border-radius: 32px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Menu/16 */
+
+width: 20px;
+height: 20px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 7.81%;
+right: 7.81%;
+top: 20.31%;
+bottom: 20.31%;
+
+background: #1e1e1e;
+
+/* Icon Button
+
+Keywords: action
+*/
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+display: none;
+width: 44px;
+height: 44px;
+
+background: #f5f5f5;
+border: 1px solid #d9d9d9;
+border-radius: 32px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X/16 */
+
+width: 20px;
+height: 20px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 20.31%;
+right: 20.31%;
+top: 20.31%;
+bottom: 20.31%;
+
+background: #1e1e1e;
+
+/* Figma */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 40px;
+height: 35px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+width: 23.33px;
+height: 35px;
+
+border: 3.5px solid #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Navigation Pill List */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-end;
+align-items: flex-start;
+align-content: flex-end;
+padding: 0px;
+gap: 8px;
+
+width: 1072px;
+height: 32px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Navigation Pill */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 73px;
+height: 32px;
+
+background: #f5f5f5;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Title */
+
+width: 57px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Navigation Pill */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+display: none;
+width: 86px;
+height: 32px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Title */
+
+width: 0px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Navigation Pill */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 103px;
+height: 32px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Title */
+
+width: 87px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Navigation Pill */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 78px;
+height: 32px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Title */
+
+width: 62px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Navigation Pill */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 98px;
+height: 32px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* Title */
+
+width: 82px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Navigation Pill */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 77px;
+height: 32px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* Title */
+
+width: 61px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Header Auth */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+display: none;
+width: 178px;
+height: 32px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 83px;
+height: 32px;
+
+background: #e3e3e3;
+border: 1px solid #767676;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 1;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 83px;
+height: 32px;
+
+background: #2c2c2c;
+border: 1px solid #2c2c2c;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #f5f5f5;
+
+/* Button */
+
+width: 63px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #f5f5f5;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #f5f5f5;
+
+/* Hero Image */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 160px 24px;
+gap: 32px;
+
+width: 1200px;
+height: 524px;
+
+background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  ),
+  url(Checker.png);
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Text Content Title */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 8px;
+
+width: 560px;
+height: 132px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Title */
+
+width: 560px;
+height: 86px;
+
+/* Title Hero */
+font-family: "Inter";
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 120%;
+/* または86px */
+text-align: center;
+letter-spacing: -0.03em;
+
+color: #0c0c0d;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Subtitle */
+
+width: 560px;
+height: 38px;
+
+/* Subtitle */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 120%;
+/* または38px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #0c0c0d;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button Group
+
+Keywords: actions
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+width: 166px;
+height: 40px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+width: 75px;
+height: 40px;
+
+background: #e3e3e3;
+border: 1px solid #767676;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+width: 75px;
+height: 40px;
+
+background: #2c2c2c;
+border: 1px solid #2c2c2c;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #f5f5f5;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #f5f5f5;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #f5f5f5;
+
+/* Panel Image Double */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 64px;
+gap: 48px;
+
+width: 1200px;
+height: 478px;
+
+background: #ffffff;
+opacity: 0.8;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+
+/* Image */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 512px;
+height: 350px;
+
+/* Image Placeholder */
+background: url(image.png), #e3e3e3;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+
+/* Image */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 512px;
+height: 350px;
+
+/* Image Placeholder */
+background: url(image.png), #e3e3e3;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+
+/* Card Grid Icon */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 64px;
+gap: 48px;
+
+width: 1200px;
+height: 551px;
+
+background: #ffffff;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+
+/* Text Content Heading */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 113px;
+height: 61px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Heading */
+
+width: 113px;
+height: 29px;
+
+/* Heading */
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+/* ボックスの高さと同一、または29px */
+letter-spacing: -0.02em;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Subheading */
+
+width: 113px;
+height: 24px;
+
+/* Subheading */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* ボックスの高さと同一、または24px */
+display: flex;
+align-items: center;
+
+color: #757575;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Cards */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
+align-content: flex-start;
+padding: 0px;
+gap: 64px;
+
+width: 1072px;
+height: 314px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Card
+
+The cards have a fixed width of 440 in the component set, but when placed in designs their auto layout and width settings should be defined by their parent. 
+
+Use &quot;fill&quot; as the auto layout property, and the content will flow automatically.
+
+Keywords: cards, tile, tiles
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 301.33px;
+min-width: 240px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Info */
+
+width: 32px;
+height: 32px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 3px solid #1e1e1e;
+
+/* Body */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 245.33px;
+min-width: 160px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Text */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 245.33px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 245.33px;
+height: 29px;
+
+/* Heading */
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+/* ボックスの高さと同一、または29px */
+letter-spacing: -0.02em;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. */
+
+width: 245.33px;
+height: 88px;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+
+color: #757575;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button Group
+
+Keywords: actions
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+display: none;
+width: 384px;
+height: 40px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+display: none;
+width: 75px;
+height: 40px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #303030;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+width: 75px;
+height: 40px;
+
+background: #e3e3e3;
+border: 1px solid #767676;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Card
+
+The cards have a fixed width of 440 in the component set, but when placed in designs their auto layout and width settings should be defined by their parent. 
+
+Use &quot;fill&quot; as the auto layout property, and the content will flow automatically.
+
+Keywords: cards, tile, tiles
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 321.33px;
+min-width: 240px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Info */
+
+width: 32px;
+height: 32px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 3px solid #1e1e1e;
+
+/* Body */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 265.33px;
+min-width: 160px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Text */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 265.33px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 265.33px;
+height: 29px;
+
+/* Heading */
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+/* ボックスの高さと同一、または29px */
+letter-spacing: -0.02em;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. */
+
+width: 265.33px;
+height: 88px;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+
+color: #757575;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button Group
+
+Keywords: actions
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+display: none;
+width: 384px;
+height: 40px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+display: none;
+width: 75px;
+height: 40px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #303030;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+width: 75px;
+height: 40px;
+
+background: #e3e3e3;
+border: 1px solid #767676;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Card
+
+The cards have a fixed width of 440 in the component set, but when placed in designs their auto layout and width settings should be defined by their parent. 
+
+Use &quot;fill&quot; as the auto layout property, and the content will flow automatically.
+
+Keywords: cards, tile, tiles
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 321.33px;
+min-width: 240px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 1;
+
+/* Info */
+
+width: 32px;
+height: 32px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 3px solid #1e1e1e;
+
+/* Body */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 265.33px;
+min-width: 160px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Text */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 265.33px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 265.33px;
+height: 29px;
+
+/* Heading */
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+/* ボックスの高さと同一、または29px */
+letter-spacing: -0.02em;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. */
+
+width: 265.33px;
+height: 88px;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+
+color: #757575;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button Group
+
+Keywords: actions
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+display: none;
+width: 384px;
+height: 40px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+display: none;
+width: 75px;
+height: 40px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #303030;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+width: 75px;
+height: 40px;
+
+background: #e3e3e3;
+border: 1px solid #767676;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Card
+
+The cards have a fixed width of 440 in the component set, but when placed in designs their auto layout and width settings should be defined by their parent. 
+
+Use &quot;fill&quot; as the auto layout property, and the content will flow automatically.
+
+Keywords: cards, tile, tiles
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 314.67px;
+min-width: 240px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 3;
+flex-grow: 1;
+
+/* Info */
+
+width: 32px;
+height: 32px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 3px solid #1e1e1e;
+
+/* Body */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 258.67px;
+min-width: 160px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Text */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 258.67px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 258.67px;
+height: 29px;
+
+/* Heading */
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+/* ボックスの高さと同一、または29px */
+letter-spacing: -0.02em;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. */
+
+width: 258.67px;
+height: 88px;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+
+color: #757575;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button Group
+
+Keywords: actions
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+display: none;
+width: 384px;
+height: 40px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+display: none;
+width: 75px;
+height: 40px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #303030;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+width: 75px;
+height: 40px;
+
+background: #e3e3e3;
+border: 1px solid #767676;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Card
+
+The cards have a fixed width of 440 in the component set, but when placed in designs their auto layout and width settings should be defined by their parent. 
+
+Use &quot;fill&quot; as the auto layout property, and the content will flow automatically.
+
+Keywords: cards, tile, tiles
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 314.67px;
+min-width: 240px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 4;
+flex-grow: 1;
+
+/* Info */
+
+width: 32px;
+height: 32px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 3px solid #1e1e1e;
+
+/* Body */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 258.67px;
+min-width: 160px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Text */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 258.67px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 258.67px;
+height: 29px;
+
+/* Heading */
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+/* ボックスの高さと同一、または29px */
+letter-spacing: -0.02em;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. */
+
+width: 258.67px;
+height: 88px;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+
+color: #757575;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button Group
+
+Keywords: actions
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+display: none;
+width: 384px;
+height: 40px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+display: none;
+width: 75px;
+height: 40px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #303030;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+width: 75px;
+height: 40px;
+
+background: #e3e3e3;
+border: 1px solid #767676;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Card
+
+The cards have a fixed width of 440 in the component set, but when placed in designs their auto layout and width settings should be defined by their parent. 
+
+Use &quot;fill&quot; as the auto layout property, and the content will flow automatically.
+
+Keywords: cards, tile, tiles
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 314.67px;
+min-width: 240px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 5;
+flex-grow: 1;
+
+/* Info */
+
+width: 32px;
+height: 32px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 8.33%;
+
+border: 3px solid #1e1e1e;
+
+/* Body */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+
+width: 258.67px;
+min-width: 160px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 1;
+
+/* Text */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+
+width: 258.67px;
+height: 125px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Title */
+
+width: 258.67px;
+height: 29px;
+
+/* Heading */
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 120%;
+/* ボックスの高さと同一、または29px */
+letter-spacing: -0.02em;
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Body text for whatever you’d like to say. Add main takeaway points, quotes, anecdotes, or even a very very short story. */
+
+width: 258.67px;
+height: 88px;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+
+color: #757575;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button Group
+
+Keywords: actions
+*/
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+display: none;
+width: 384px;
+height: 40px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+/* Button */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+display: none;
+width: 75px;
+height: 40px;
+
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #303030;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 8px;
+
+width: 75px;
+height: 40px;
+
+background: #e3e3e3;
+border: 1px solid #767676;
+border-radius: 8px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Star
+
+Keywords: bookmark, favorite, like
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 8.33%;
+right: 8.33%;
+top: 8.33%;
+bottom: 12.42%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Button */
+
+width: 51px;
+height: 16px;
+
+/* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+/* ボックスの高さと同一、または16px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X
+
+Keywords: cancel, close, delete, remove, times, clear
+*/
+
+display: none;
+width: 16px;
+height: 16px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 25%;
+right: 25%;
+top: 25%;
+bottom: 25%;
+
+border: 1.6px solid #1e1e1e;
+
+/* Group 2 */
+
+width: 1200px;
+height: 468px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* Footer */
+
+box-sizing: border-box;
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: flex-start;
+align-content: flex-start;
+padding: 32px 32px 160px;
+gap: 16px;
+
+position: absolute;
+width: 1200px;
+height: 468px;
+left: 0px;
+top: 1652px;
+
+background: #ffffff;
+border-top: 1px solid #d9d9d9;
+
+/* Title */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+width: 262px;
+min-width: 240px;
+height: 35px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Figma */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+width: 23.33px;
+height: 35px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+width: 23.33px;
+height: 35px;
+
+border: 3.5px solid #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Button List */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 16px;
+
+display: none;
+width: 143.98px;
+height: 24px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* X Logo */
+
+width: 23.98px;
+height: 24px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1e1e1e;
+
+/* Logo Instagram */
+
+width: 24px;
+height: 24px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #1e1e1e;
+
+/* Logo YouTube */
+
+width: 24px;
+height: 24px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 12.5%;
+bottom: 12.5%;
+
+background: #1e1e1e;
+
+/* LinkedIn */
+
+width: 24px;
+height: 24px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Icon */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: rgba(0, 0, 0, 0.7);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+/* Text Link List */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 262px;
+height: 276px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* Title */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 16px;
+gap: 10px;
+
+width: 262px;
+height: 38px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Text Strong */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 262px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Text Strong */
+
+width: 80px;
+height: 22px;
+
+/* Body Strong */
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: 19.1%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: 12.36%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -3.37%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -12.36%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -17.98%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -55.06%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -61.8%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 262px;
+height: 276px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* Title */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 16px;
+gap: 10px;
+
+width: 262px;
+height: 38px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Text Strong */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 262px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Text Strong */
+
+width: 59px;
+height: 22px;
+
+/* Body Strong */
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: 42.7%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -87.64%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -34.83%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -88.76%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -31.46%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: 38.2%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 12px;
+
+width: 262px;
+height: 174px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* Title */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px 0px 16px;
+gap: 10px;
+
+width: 262px;
+height: 38px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Text Strong */
+
+/* オートレイアウト */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+width: 262px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+/* Text Strong */
+
+width: 82px;
+height: 22px;
+
+/* Body Strong */
+font-family: "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+
+color: #1e1e1e;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: 61.8%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+display: none;
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -22.47%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+display: none;
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 3;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: 44.94%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+display: none;
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -1.12%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 5;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: 31.46%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 6;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: 3.37%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Text Link List Item */
+
+width: 89px;
+height: 22px;
+
+/* オートレイアウト内部 */
+flex: none;
+order: 7;
+flex-grow: 0;
+
+/* List item */
+
+position: absolute;
+left: 0%;
+right: -38.2%;
+top: 0%;
+bottom: 0%;
+
+/* Body Base */
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* または22px */
+display: flex;
+align-items: center;
+
+color: #1e1e1e;
+
+/* Vector */
+
+position: absolute;
+left: 2.5%;
+right: 95.42%;
+top: 82.17%;
+bottom: 16.65%;
+
+background: #24292f;

@@ -1,139 +1,140 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 body {
-    margin-left: 100px;
-    margin-right: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 footer {
-    text-align: center;
-    margin-top: 3em;
-    padding-bottom: 2em;
+  text-align: center;
+  margin-top: 3em;
+  padding-bottom: 2em;
 }
 
 .h2 {
-    /* margin-left: 1em; */
-    font-size: 1.3em;
-    margin-bottom: 0.3em;
+  /* margin-left: 1em; */
+  font-size: 1.3em;
+  margin-bottom: 0.3em;
 }
 .h1 {
-    /* margin-left: 1em; */
-    font-size: 1.7em;
-    margin-bottom: 0.3em;
+  /* margin-left: 1em; */
+  font-size: 1.7em;
+  margin-bottom: 0.3em;
 }
 
 header {
-    text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: black; /* テキスト色を黒に設定 */
-    text-decoration: none; /* 下線を消す（必要であれば） */
-    }
-    .logo {
-        width: "100";
-        height: 50px;
-    }
-    .header:hover {
-        color: black; /* ホバー時の色も黒に固定 */
-        text-decoration: none; /* 下線を消す（必要であれば） */
-    }
-    .header:visited {
-        color: black; /* 訪問済みリンクの色も黒に設定 */
-    }
-    .header:hover {
-        color: black; /* ホバー時の色も黒に設定 */
-    }
-    .header:active {
-        color: black; /* クリック時（アクティブ）の色も黒に設定 */
-    }
-    .header .text {
-        margin-right: 1em; /* テキストの右側にスペースを追加 */
-        margin-left: .5em; /* テキストの左側にスペースを追加 */
-    }
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: black; /* テキスト色を黒に設定 */
+  text-decoration: none; /* 下線を消す（必要であれば） */
+}
+.logo {
+  width: "100";
+  height: 50px;
+}
+.header:hover {
+  color: black; /* ホバー時の色も黒に固定 */
+  text-decoration: none; /* 下線を消す（必要であれば） */
+}
+.header:visited {
+  color: black; /* 訪問済みリンクの色も黒に設定 */
+}
+.header:hover {
+  color: black; /* ホバー時の色も黒に設定 */
+}
+.header:active {
+  color: black; /* クリック時（アクティブ）の色も黒に設定 */
+}
+.header .text {
+  margin-right: 1em; /* テキストの右側にスペースを追加 */
+  margin-left: 0.5em; /* テキストの左側にスペースを追加 */
+}
 
 .button {
-    text-decoration: none; /* 下線を消す（必要であれば） */
+  text-decoration: none; /* 下線を消す（必要であれば） */
 }
-    .button .text {
-        color: black;
-        text-decoration: none; /* 下線を消す（必要であれば） */
-        } 
-        .button .text .hover {
-            color: black;
-            text-decoration: none;
-        }
-        .button .text .visited {
-            color: black;
-        }
-        .button .text .hover {
-            color: black;
-        }
-        .button .text .active {
-            color: black;
-        }
+.button .text {
+  color: black;
+  text-decoration: none; /* 下線を消す（必要であれば） */
+}
+.button .text .hover {
+  color: black;
+  text-decoration: none;
+}
+.button .text .visited {
+  color: black;
+}
+.button .text .hover {
+  color: black;
+}
+.button .text .active {
+  color: black;
+}
 
-h1, h2 {
-    color: #333;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  ul li {
-    margin: 5px 0;
-  }
-  
-  a {
-    color: #1a73e8;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
-  pre {
-    background-color: #f4f4f4;
-    padding: 10px;
-    border-radius: 5px;
-  }
+h1,
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 5px 0;
+}
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
 
 .li {
-    /* font-size: 1.2em; テキストサイズを標準の 1.2 倍に設定 */
-    margin-bottom: 1.5em;
-    /* margin-left: 0;
+  /* font-size: 1.2em; テキストサイズを標準の 1.2 倍に設定 */
+  margin-bottom: 1.5em;
+  /* margin-left: 0;
     padding-left: 1em; */
 }
-    .li li {
-        margin-left:0 0;
-        padding-left: 1em;
-    }
+.li li {
+  margin-left: 0 0;
+  padding-left: 1em;
+}
 
 nav {
   font-size: 1.3em;
 }
 .mid-font {
-    font-size: 1.15em;
-    margin-bottom: 0.5em;
+  font-size: 1.15em;
+  margin-bottom: 0.5em;
 }
 .li {
-    font-size: 1.2em; /* テキストサイズを標準の 1.2 倍に設定 */
-    margin-bottom: 1.5em;
+  font-size: 1.2em; /* テキストサイズを標準の 1.2 倍に設定 */
+  margin-bottom: 1.5em;
 }
 .developer-names {
-    display: block; /* ブロック要素として表示 */
-    margin-top: 5px; /* 上にスペースを追加 */
-    padding-left: 20px; /* 左側にインデント */
-  }
+  display: block; /* ブロック要素として表示 */
+  margin-top: 5px; /* 上にスペースを追加 */
+  padding-left: 20px; /* 左側にインデント */
+}
 .l-margin {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 .mini-font {
-    font-size: 0.7em;
+  font-size: 0.7em;
 }
 .big-font {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }

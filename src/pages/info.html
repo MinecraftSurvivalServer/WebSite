@@ -5,28 +5,27 @@ title: Minecraft Server Guide
 
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>お知らせ </title>
-  <link rel="stylesheet" href="../styles/global.css">
-  <link rel="stylesheet" href="../styles/contact.css">
-  <link rel="stylesheet" href="../styles/styles.css">
-  <link rel="stylesheet" href="/src/output.css">
-</head>
-<body>
-  <div id="header"></div>
-  <script class="margin-top-10">
-      fetch('/src/views/header')
-          .then(response => response.text())
-          .then(data => {
-              document.getElementById('header').innerHTML = data;
-          });
-  </script>
-  <main>
-    <p class="h2">お知らせ一覧 </p>
-    <div class="li">
-      <section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>お知らせ</title>
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <script class="margin-top-10">
+      fetch("/src/views/header")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+    <main>
+      <p class="h2">お知らせ一覧</p>
+      <div class="li">
         <!-- 
         <ul>
             <strong>xxxx-xx-xx</strong> xx:xxJST
@@ -35,23 +34,23 @@ title: Minecraft Server Guide
             </div>
         </ul> 
         -->
-
-        <ul>
-            <strong>2024-12-05</strong> 04:36PM <span class="mini-font">(JST)</span>
-            <div class="developer-names">
-              exanple
-            </div>
-        </ul>
-      </section>
-    </div>
-  </main>
-  <div id="footer"></div>
-  <script>
-      fetch('/src/views/footer')
-          .then(response => response.text())
-          .then(data => {
-              document.getElementById('footer').innerHTML = data;
-          });
-  </script>
-</body>
+        <section>
+          <ul>
+            <strong>2024-12-05</strong>
+            04:36PM
+            <span class="mini-font">(JST)</span>
+            <div class="developer-names">exanple</div>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <div id="footer"></div>
+    <script>
+      fetch("/src/views/footer")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
 </html>

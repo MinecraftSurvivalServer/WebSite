@@ -5,95 +5,85 @@ title: Minecraft Server Guide
 
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact & Credits </title>
-  <link rel="stylesheet" href="../styles/global.css">
-  <link rel="stylesheet" href="/src/styles/contact.css">
-  <link rel="stylesheet" href="/src/styles/styles.css">
-  <link rel="stylesheet" href="/src/output.css">
-</head>
-<body>
-  <div id="header"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact & Credits</title>
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="/src/styles/contact.css" />
+    <link rel="stylesheet" href="/src/styles/styles.css" />
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body>
+    <div id="header"></div>
     <script class="margin-top-10">
-        fetch('/src/views/header')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('header').innerHTML = data;
-            });
+      fetch("/src/views/header")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
     </script>
-  <main>
-    <p class="h2">Contact</p>
-    <div class="big-font">
-      <p><a href="{{https://discord.com/exanple}}">Discord</a>にお問い合わせください。(チケット発行)</p>
-    </div>
-    <p class="h2">Credits <span class="mini-font">(順不同,敬称略)</span></p>
-    <div class="li">
-      <section>
-        <ul>
-          <li>
-            <strong>Manager:</strong>
-            <div class="developer-names">
-              zeneball, aaaaajp1345, akikukeo
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <strong>Server Software Developer:</strong>
-            <div class="developer-names">
-              akikukeo
-            </div>
-          </li>
-          <li>
-            <strong>Server Software Contributor:</strong>
-            <div class="developer-names">
-              takkun2355, あめんぐん, zeneball, えぬ
-              , shumearu
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <strong>Web Developer:</strong>
-            <div class="developer-names">
-              akikukeo
-            </div>
-          </li>
-          <li>
-            <strong>Web Contributor:</strong>
-            <div class="developer-names">
-              takkun2355
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <strong>Hardware Provider</strong>
-            <div class="developer-names">
-              akikukeo
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <strong>Special Thanks:</strong>
-            <div class="developer-names">
-              summer, みずくらげ
-            </div>
-          </li>
-        </ul>
-      </section>
-    </div>
-  </main>
-  <div id="footer"></div>
-  <script>
-      fetch('/src/views/footer')
-          .then(response => response.text())
-          .then(data => {
-              document.getElementById('footer').innerHTML = data;
-          });
-  </script>
-</body>
+    <main>
+      <p class="h2">Contact</p>
+      <div class="big-font">
+        <p>
+          <a href="{{https://discord.com/exanple}}">Discord</a
+          >にお問い合わせください。(チケット発行)
+        </p>
+      </div>
+      <p class="h2">Credits <span class="mini-font">(順不同,敬称略)</span></p>
+      <div class="li">
+        <section>
+          <ul>
+            <li>
+              <strong>Manager:</strong>
+              <div class="developer-names">zeneball, aaaaajp1345, akikukeo</div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>Server Software Developer:</strong>
+              <div class="developer-names">akikukeo</div>
+            </li>
+            <li>
+              <strong>Server Software Contributor:</strong>
+              <div class="developer-names">
+                takkun2355, あめんぐん, zeneball, えぬ, shumearu
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>Web Developer:</strong>
+              <div class="developer-names">akikukeo</div>
+            </li>
+            <li>
+              <strong>Web Contributor:</strong>
+              <div class="developer-names">takkun2355</div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>Hardware Provider</strong>
+              <div class="developer-names">akikukeo</div>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <strong>Special Thanks:</strong>
+              <div class="developer-names">summer, みずくらげ</div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <div id="footer"></div>
+    <script>
+      fetch("/src/views/footer")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
 </html>
