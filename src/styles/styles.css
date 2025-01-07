@@ -1,22 +1,19 @@
 .mid-font {
-    font-size: 1.15em;
-    margin-bottom: 0.5em;
+  font-size: 1.15em;
+  margin-bottom: 0.5em;
 }
-.li {
-    font-size: 1.2em; /* テキストサイズを標準の 1.2 倍に設定 */
-    margin-bottom: 1.5em;
-}
+
 .developer-names {
-    display: block; /* ブロック要素として表示 */
-    margin-top: 5px; /* 上にスペースを追加 */
-    padding-left: 20px; /* 左側にインデント */
-  }
+  display: block; /* ブロック要素として表示 */
+  margin-top: 5px; /* 上にスペースを追加 */
+  padding-left: 20px; /* 左側にインデント */
+}
 .l-margin {
-    margin-left: 1em;
+  margin-left: 1em;
 }
 .mini-font {
-    font-size: 0.7em;
+  font-size: 0.7em;
 }
 .big-font {
-    font-size: 1.3em;
+  font-size: 1.3em;
 }

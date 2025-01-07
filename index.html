@@ -7,52 +7,47 @@ title: Minecraft Server Guide
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=100%">
+  <!-- リダイレクト用 -->
+  <!-- <meta http-equiv="refresh" content="0;URL=src/pages/newIndex.html"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home </title>
-  <link rel="stylesheet" href="./src/styles/index.css">
-  <link rel="stylesheet" href="./src/styles/global.css">
+  <link rel="stylesheet" href="/src/styles/index.css">
+  <link rel="stylesheet" href="/src/styles/global.css">
+  <link rel="stylesheet" href="/src/output.css">
 </head>
 <body>
-  <header>
-    開発中の画面です。仕様が変更される場合があります。
-    <h1>Minecraft サーバー案内</h1>
-    <nav>
-      <ul>
-        <li><a href="src/pages/contact.html">Contact & Credits</a></li>
-        <li><a href="src/pages/info.html">お知らせ</a></li>
-        <li><a href="src/pages/changelog.html">変更履歴</a></li>
-      </ul>
-    </nav>
-  </header>
-
+  <div id="header"></div>
+  <script class="margin-top-10">
+    fetch('/src/views/header')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        });
+  </script>
   <main>
-    <section>
-      <h2>サーバー情報</h2>
-      <p>このサーバーは、みんなが楽しむためのマルチプレイヤーサーバーです。サーバーの特徴は次の通りです。</p>
-      <ul>
-        <li><strong>バージョン:</strong> 1.20</li>
-        <li><strong>サーバーIP:</strong> <a href="http://example.com">example.com</a></li>
-        <li><strong>プレイモード:</strong> サバイバル</li>
-        <li><strong>ルール:</strong> example</li>
-      </ul>
-    </section>
+    <h2 class="h2">サーバー情報</h2>
+    <p>このサーバーは、みんなが楽しむためのマルチプレイヤーサーバーです。サーバーの特徴は次の通りです。</p>
+    <ul style="margin-top: 0.5; margin-bottom: 0.5rem; margin-left: 0; padding-left: 1rem;">
+      <li><strong>バージョン:</strong> 1.20</li>
+      <li><strong>サーバーIP:</strong> <a href="http://example.com">example.com</a></li>
+      <li><strong>プレイモード:</strong> サバイバル</li>
+      <li><strong>ルール:</strong> example</li>
+    </ul>
 
-    <section>
-      <h2>アクセス方法</h2>
-      <p>サーバーに参加するには、Minecraft の「マルチプレイ」から新しいサーバーを追加し、以下の情報を入力してください。</p>
-      <pre><code>サーバーIP: example.com</code></pre>
-    </section>
+    <h2 class="h2">アクセス方法</h2>
+    <p>サーバーに参加するには、Minecraft の「マルチプレイ」から新しいサーバーを追加し、以下の情報を入力してください。</p>
+    <pre><code>サーバーIP: example.com</code></pre>
 
-    <section>
-      <h2>サーバーの特徴</h2>
-        <li>プラグインによる機能追加</li>
-    </section>
+    <h2 class="h2">サーバーの特徴</h2>
+      <li style="margin-left: 0; padding-left: 1rem;">プラグインによる機能追加</li>
   </main>
-
-  <footer>
-    <p>&copy; 2024- Minecraft Survival Server</p>
-    <p>&copy; akikukeo</p>
-    開発中の画面です。仕様が変更される場合があります。
-  </footer>
+  <div id="footer"></div>
+  <script>
+    fetch('/src/views/footer')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('footer').innerHTML = data;
+        });
+  </script>
 </body>
 </html>

@@ -2,6 +2,6 @@
 ./src/styles
 ./index.html
 ./package.json
-./README.md
+./docs
 ./typos-paths.txt
 ./.github/workflows

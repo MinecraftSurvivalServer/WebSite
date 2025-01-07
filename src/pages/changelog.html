@@ -5,90 +5,125 @@ title: Minecraft Server Guide
 
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=100%">
-  <title>Contact & Credits </title>
-  <link rel="stylesheet" href="../styles/global.css">
-  <link rel="stylesheet" href="../styles/contact.css">
-  <link rel="stylesheet" href="../styles/changelog.css">
-  <link rel="stylesheet" href="../styles/styles.css">
-</head>
-<body>
-  <header>
-    開発中の画面です。仕様が変更される場合があります。
-    <h1>変更履歴</h1>
-    <nav>
-      <a href="../../index.html">Home</a>
-    </nav>
-  </header>
-
-  <main>
-    <section>
-      <p class="h2">サーバーソフトウェア</p>
-      <div class="li">
-          <p class="mid-font"><strong><a href="https://github.com/akikukeo/minecraft-server/releases/tag/v0.2.6-alpha">v0.2.6-alpha | 2024-10-20</a></strong></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact & Credits</title>
+    <!-- <link rel="stylesheet" href="../styles/global.css"> -->
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/changelog.css" />
+    <!-- <link rel="stylesheet" href="../styles/styles.css">  -->
+    <link rel="stylesheet" href="/src/output.css" />
+  </head>
+  <body>
+    <div id="header"></div>
+    <script class="margin-top-10">
+      fetch("/src/views/header")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header").innerHTML = data;
+        });
+    </script>
+    <main>
+      <section>
+        <p class="h2">サーバーソフトウェア</p>
+        <div class="li">
+          <p class="mid-font">
+            <strong
+              ><a
+                href="https://github.com/akikukeo/minecraft-server/releases/tag/v0.2.6-alpha"
+                >v0.2.6-alpha | 2024-10-20</a
+              ></strong
+            >
+          </p>
           <div class="developer-names">
-              <p class="ch">追加:</p>
-              <li>exeを追加(AutoSetup各種入れたやつ)</li>
-              <li>自動ダウンロードBAT作成</li>
-              <p class="ch">修正:</p>
-              <li>AutoSetup系</li>
-              <li>curlがうまく動作しない問題を修正 (Windows11,一部のcurl未導入環境) <br>
-                  > 一時的にエラー検知や一部機能を無効化している <br>
-                  > 同封curlを使用することによりパス通し忘れ等を対策
-              </li>
-              <li>windows11だと期待通りに動作しない問題を修正</li>
-              <li>何らかの理由でcurlが動作しない場合に期待通りに動作しない問題を修正</li>
+            <p class="ch">追加:</p>
+            <li>exeを追加(AutoSetup各種入れたやつ)</li>
+            <li>自動ダウンロードBAT作成</li>
+            <p class="ch">修正:</p>
+            <li>AutoSetup系</li>
+            <li>
+              curlがうまく動作しない問題を修正 (Windows11,一部のcurl未導入環境)
+              <br />
+              > 一時的にエラー検知や一部機能を無効化している <br />
+              > 同封curlを使用することによりパス通し忘れ等を対策
+            </li>
+            <li>windows11だと期待通りに動作しない問題を修正</li>
+            <li>
+              何らかの理由でcurlが動作しない場合に期待通りに動作しない問題を修正
+            </li>
           </div>
-      </div>
-    </section>
-    <section>
-      <p class="h2">Webページ</p>
-      <div class="li">
-        <p class="mid-font"><strong>0.0.2 2024-12-05</strong> 07:28PM <span class="mini-font">(JST)</span></p>
-        <div class="developer-names">
-          <p class="ch">追加:</p>
-          <li>お知らせページを追加</li>
-          <p class="ch">変更:</p>
-          <li>cssの変更</li>
-          <li>ページの調整</li>
         </div>
-      </div>
-      <div class="li">
-        <p class="mid-font"><strong>v0.0.1 2024-12-04</strong></p>
-        <div class="developer-names">
-          <p class="ch">追加:</p>
-          <li>サイトを作成</li>
-          <li>Home, 変更履歴, contact&creditのページを追加</li>
-          <!-- <p class="ch">変更:</p>
+      </section>
+      <section>
+        <p class="h2">Webページ</p>
+        <div class="li">
+          <p class="mid-font">
+            <strong>v0.0.3 2024-12-26</strong> 9:15PM
+            <span class="mini-font">(JST GMT+09:00)</span>
+          </p>
+          <div class="developer-names">
+            <p class="ch">追加:</p>
+            <li>ヘッターの追加</li>
+            <p class="ch">変更:</p>
+            <li>ヘッター、フッターをテキストから取得するよう変更</li>
+            <li>パスを絶対パスへと変更</li>
+          </div>
+        </div>
+        <div class="li">
+          <p class="mid-font">
+            <strong>v0.0.2 2024-12-05</strong> 07:28PM
+            <span class="mini-font">(JST GMT+09:00)</span>
+          </p>
+          <div class="developer-names">
+            <p class="ch">追加:</p>
+            <li>お知らせページを追加</li>
+            <p class="ch">変更:</p>
+            <li>cssの変更</li>
+            <li>ページの調整</li>
+          </div>
+        </div>
+        <div class="li">
+          <p class="mid-font"><strong>v0.0.1 2024-12-04</strong></p>
+          <div class="developer-names">
+            <p class="ch">追加:</p>
+            <li>サイトを作成</li>
+            <li>Home, 変更履歴, contact&creditのページを追加</li>
+            <!-- <p class="ch">変更:</p>
           <p class="ch">修正:</p> -->
+          </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <p class="h2">その他</p>
-      <div class="li">
-        <p class="mid-font"><strong>2024-12-05</strong> 7:28PM <span class="mini-font">(JST)</span></p>
-        <div class="developer-names">
-          <p class="ch">変更:</p>
-          <li>typosのチェックするファイルを指定するconfigを作成、そこから読み込むように変更</li>
+      </section>
+      <section>
+        <p class="h2">その他</p>
+        <div class="li">
+          <p class="mid-font">
+            <strong>2024-12-05</strong> 7:28PM
+            <span class="mini-font">(JST)</span>
+          </p>
+          <div class="developer-names">
+            <p class="ch">変更:</p>
+            <li>
+              typosのチェックするファイルを指定するconfigを作成、そこから読み込むように変更
+            </li>
+          </div>
         </div>
-      </div>
-      <div class="li">
-        <p class="mid-font"><strong>2024-12-04</strong></p>
-        <div class="developer-names">
-          <p class="ch">追加:</p>
-          <li>タイプミス検出Actionsを追加</li>
+        <div class="li">
+          <p class="mid-font"><strong>2024-12-04</strong></p>
+          <div class="developer-names">
+            <p class="ch">追加:</p>
+            <li>タイプミス検出Actionsを追加</li>
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2024- Minecraft Survival Server</p>
-    <p>&copy; akikukeo</p>
-    開発中の画面です。仕様が変更される場合があります。
-  </footer>
-</body>
+      </section>
+    </main>
+    <div id="footer"></div>
+    <script>
+      fetch("/src/views/footer")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
+        });
+    </script>
+  </body>
 </html>

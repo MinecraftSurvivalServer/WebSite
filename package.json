@@ -1,12 +1,33 @@
 {
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "preline": "^2.7.0",
+    "pug": "^3.0.3"
   },
   "scripts": {
-    "build": "node copy-files.js"
+    "build": "node copy-files.js",
+    "pug": "pug src/views/**/*.pug -o dist",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "format2": "prettier --write src/**/*.{js,css,html}",
+    "format": "prettier --write src/pages/newIndex.html",
+    "lint2": "eslint --fix src/**/*.{js,css,html}",
+    "lint": "eslint --fix src/pages/newIndex.html",
+    "fix2": "npm run format2 && npm run lint2",
+    "fix": "npm run format2 && npm run lint2",
+    "views-format1": "prettier --write src/views/header",
+    "views-format2": "prettier --write src/views/footer",
+    "views-format": "npm run views-format1 && npm run views-format2",
+    "views-lint1": "eslint --fix src/views/header",
+    "views-lint2": "eslint --fix src/views/footer",
+    "views-lint": "npm run views-lint1 && npm run views-lint2",
+    "fix-views": "npm run views-format && npm run views-lint"
   },
   "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
     "fs-extra": "^11.2.0",
-    "ncp": "^2.0.0"
+    "ncp": "^2.0.0",
+    "prettier": "^2.3.0",
+    "tailwindcss": "^3.4.17"
   }
 }
