@@ -12,6 +12,6 @@
   "devDependencies": {
     "fs-extra": "^11.3.0",
     "ncp": "^2.0.0",
-    "tailwindcss": "^4.1.4"
+    "tailwindcss": "^4.1.8"
   }
 }
