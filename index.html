@@ -14,6 +14,28 @@ title: Minecraft Server Guide
   <link rel="stylesheet" href="/src/styles/index.css">
   <link rel="stylesheet" href="/src/styles/global.css">
   <link rel="stylesheet" href="/src/output.css">
+  <script>
+    (function() {
+      const classDark = 'dark';
+      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+
+      function updateTheme(isDark) {
+        if (isDark) {
+          document.documentElement.classList.add(classDark);
+        } else {
+          document.documentElement.classList.remove(classDark);
+        }
+      }
+
+      // Apply theme on initial load
+      updateTheme(mediaQuery.matches);
+
+      // Listen for changes in system preference
+      mediaQuery.addEventListener('change', (event) => {
+        updateTheme(event.matches);
+      });
+    })();
+  </script>
 </head>
 <body>
   <div id="header"></div>
